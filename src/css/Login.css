@@ -1,0 +1,38 @@
+.login-container {
+  height: 100vh;
+  background: rgb(255, 216, 144);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.login-wrapper {
+  width: 20%;
+  padding: 20px;
+  background-color: white;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  /* align-items: center; */
+  justify-content: center;
+  gap: 20px;
+}
+.login-wrapper h1 {
+  font-size: 24px;
+  font-weight: 500;
+  letter-spacing: 1px;
+}
+.login-wrapper button {
+  background-color: rgb(252, 184, 57);
+  font-weight: 700;
+  font-size: 18px;
+  padding: 5px 10px;
+  border: none;
+  cursor: pointer;
+}
+
+/* <div className="login-container">
+<div className="login-wrapper">
+  <h1>Sign-In with your Google Account to continue</h1>
+  <button onClick={googleLogin}>Login</button>
+</div>
+</div> */

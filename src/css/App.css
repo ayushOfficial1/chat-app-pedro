@@ -1,0 +1,49 @@
+.main-container {
+  height: 100vh;
+  background-color: rgb(254, 213, 219);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.room-container {
+  background-color: snow;
+  padding: 20px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  width: 10%;
+}
+.room-container input {
+  padding: 5px 10px;
+  letter-spacing: 1px;
+  font-size: 16px;
+}
+.room-container button {
+  background-color: pink;
+  padding: 5px 10px;
+  letter-spacing: 1px;
+  font-weight: 700;
+  cursor: pointer;
+  border: 2px solid palevioletred;
+  &:hover {
+    background-color: palevioletred;
+  }
+}
+.signout {
+  margin: 20px;
+}
+.signout button {
+  letter-spacing: 1px;
+  padding: 5px 10px;
+  font-weight: 700;
+  font-size: 16px;
+  cursor: pointer;
+  background: white;
+  border: 2px solid palevioletred;
+  &:hover {
+    background-color: palevioletred;
+  }
+}
